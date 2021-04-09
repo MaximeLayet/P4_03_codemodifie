@@ -90,6 +90,7 @@ a:hover {
     right: 0;
 }
 
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -325,7 +326,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -334,7 +335,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background:#F3976C;
+    transition: 0.3s ease-in;
+    border-radius: 5rem;
 }
 
 .navbar-toggle {
@@ -651,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -677,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +695,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:black;
 }
 
 .portfolio-thumb {
@@ -775,21 +777,24 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: black;
+    color: #F3976C!important;
 }
 
 .ltc-white {
     color: #FFFFFF!important;
+}
+
+p.adress {
+    text-align: center;
 }
 
 .ltc-white:hover {
@@ -809,9 +814,9 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+}*/
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -933,6 +938,8 @@ h4 {
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+        border-bottom: solid 2px #c27956;
+        transition: 0.2s ease-in;
     }
     .dropdown .dropdown a .caret {
         float: none;
