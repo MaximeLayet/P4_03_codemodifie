@@ -144,6 +144,7 @@ a.project{
     color: rgba(255, 255, 255, 1);
 }
 
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
@@ -469,7 +470,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .icon-lg {
